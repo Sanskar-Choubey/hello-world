@@ -1,25 +1,26 @@
-import React, { Component } from 'react';
+import React,{ Component } from 'react';
 
-class State extends Component {
+class State extends Component{
     constructor(){
         super()
         this.state = {
-            message : "Welcome New Subsciber"
+            message : 'Welcome Subsciber'
         }
     }
 
-    messageHandler(){
-        this.setState({
-            message : 'Thank you for subscribing'
-        })
+   messageHandler(){
+       this.setState({
+           message:'Thank you for subscribing'
+       })
     }
+
     render(){
-        return(
+        return (
             <div>
                 <h1>{this.state.message}</h1>
-                <button onClick={() => this.messageHandler()}>Subscribe</button>
+                <button onClick= {() => this.messageHandler()}>Subscribe</button>
             </div>
-        );
+        )
     }
 }
 
