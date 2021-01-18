@@ -9,11 +9,11 @@ import State from './components/state';
 import Counter from './components/counter';
 import ClickHandler from './components/FunctionClickHandler';
 import Button from './components/ClassClickHandler';
+import Bind from './components/BindEvent';
 function App() {
     return (
       <div className="App">
-        <ClickHandler />
-        <Button />
+        <Bind />
       </div>
     );
 }
