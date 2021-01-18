@@ -12,7 +12,9 @@ function App() {
         <Msg />
         <Welcome /> */}
         {/* <Message /> */}
-        <Greetings name='Sanskar' heroName="Gaddar"/>
+        <Greetings name='Sanskar' heroName="Gaddar">
+          <p>This is the name given to Sanskar</p>
+        </Greetings>
         <Greetings name='Sammy' heroName="Samundar"/>
         <Greetings name='Ashray' heroName="Thakaan"/>
       </div>
