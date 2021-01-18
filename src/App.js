@@ -6,6 +6,8 @@ import Welcome from './components/welcome';
 import Message from './components/JSX';
 import Greetings from './components/props';
 import State from './components/state';
+import Counter from './components/counter';
+
 function App() {
     return (
       <div className="App">
@@ -27,7 +29,8 @@ function App() {
         <Welcome name="Sammy" heroName="Samundar"/>
         <Welcome name="Ashray" heroName="Thakaan"/> */}
 
-        <State />
+        {/* <State /> */}
+        <Counter />
 
       </div>
     );
