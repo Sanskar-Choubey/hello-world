@@ -4,14 +4,17 @@ import Greet from './components/greet';
 import {Msg} from './components/greet';
 import Welcome from './components/welcome';
 import Message from './components/JSX';
-
+import Greetings from './components/props';
 function App() {
     return (
       <div className="App">
         {/* <Greet />
         <Msg />
         <Welcome /> */}
-        <Message />
+        {/* <Message /> */}
+        <Greetings name='Sanskar' heroName="Gaddar"/>
+        <Greetings name='Sammy' heroName="Samundar"/>
+        <Greetings name='Ashray' heroName="Thakaan"/>
       </div>
     );
 }
