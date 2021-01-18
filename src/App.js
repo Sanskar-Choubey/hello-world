@@ -20,7 +20,9 @@ function App() {
         </Greetings>
         <Greetings name='Ashray' heroName="Thakaan"/>
 
-        <Welcome name="Sanskar" heroName="Gaddar"/>
+        <Welcome name="Sanskar" heroName="Gaddar">
+          Sanskar is the winner
+        </Welcome>
         <Welcome name="Sammy" heroName="Samundar"/>
         <Welcome name="Ashray" heroName="Thakaan"/>
 
