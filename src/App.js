@@ -15,8 +15,15 @@ function App() {
         <Greetings name='Sanskar' heroName="Gaddar">
           <p>This is the name given to Sanskar</p>
         </Greetings>
-        <Greetings name='Sammy' heroName="Samundar"/>
+        <Greetings name='Sammy' heroName="Samundar">
+          <button>Click Me</button>
+        </Greetings>
         <Greetings name='Ashray' heroName="Thakaan"/>
+
+        <Welcome name="Sanskar" heroName="Gaddar"/>
+        <Welcome name="Sammy" heroName="Samundar"/>
+        <Welcome name="Ashray" heroName="Thakaan"/>
+
       </div>
     );
 }
