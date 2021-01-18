@@ -5,6 +5,7 @@ import {Msg} from './components/greet';
 import Welcome from './components/welcome';
 import Message from './components/JSX';
 import Greetings from './components/props';
+import State from './components/state';
 function App() {
     return (
       <div className="App">
@@ -12,7 +13,7 @@ function App() {
         <Msg />
         <Welcome /> */}
         {/* <Message /> */}
-        <Greetings name='Sanskar' heroName="Gaddar">
+        {/* <Greetings name='Sanskar' heroName="Gaddar">
           <p>This is the name given to Sanskar</p>
         </Greetings>
         <Greetings name='Sammy' heroName="Samundar">
@@ -24,7 +25,9 @@ function App() {
           Sanskar is the winner
         </Welcome>
         <Welcome name="Sammy" heroName="Samundar"/>
-        <Welcome name="Ashray" heroName="Thakaan"/>
+        <Welcome name="Ashray" heroName="Thakaan"/> */}
+
+        <State />
 
       </div>
     );
