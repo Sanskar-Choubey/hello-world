@@ -14,11 +14,12 @@ import Conditional from './components/Conditional';
 import List from './components/listRendering';
 import Style from './components/styleComponent';
 import Inline from './components/inlineStyle';
+import Controlled from './components/controlledComponents';
 
 function App() {
     return (
       <div className="App">
-        <Inline />
+        <Controlled />
       </div>
     );
 }
