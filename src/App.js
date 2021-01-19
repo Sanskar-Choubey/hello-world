@@ -11,11 +11,12 @@ import ClickHandler from './components/FunctionClickHandler';
 import Button from './components/ClassClickHandler';
 import Bind from './components/BindEvent';
 import Conditional from './components/Conditional';
+import List from './components/listRendering';
 
 function App() {
     return (
       <div className="App">
-        <Conditional />
+        <List />
       </div>
     );
 }
