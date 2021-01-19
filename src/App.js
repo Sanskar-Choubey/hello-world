@@ -10,10 +10,12 @@ import Counter from './components/counter';
 import ClickHandler from './components/FunctionClickHandler';
 import Button from './components/ClassClickHandler';
 import Bind from './components/BindEvent';
+import Conditional from './components/Conditional';
+
 function App() {
     return (
       <div className="App">
-        <Bind />
+        <Conditional />
       </div>
     );
 }
